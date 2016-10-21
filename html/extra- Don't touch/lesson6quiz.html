@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Computer Science and The Laws You Need To Know</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
+  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+
+<body>
+<div id ="header">
+	<div id = "logo">
+		<a href ="index.html"><img src="logo.png" id = "logoimg"></a>
+	</div>
+	<div id = "headertext">
+		<p>
+			Fun and interactive lessons to help you learn about the laws in computer science!
+		</p>
+	</div>
+	<nav>
+		<ul>
+		    <li><a href="">Computer Laws</a>
+		    	<ul>
+		  			<li><a href="http://www.legislation.gov.uk/ukpga/1998/29/contents">Data Protection Act</a></li>
+		  			<li><a href="http://www.legislation.gov.uk/ukpga/1988/48/contents">Copyright Designs and Patents Act</a></li>
+		  			<li><a href="http://www.legislation.gov.uk/ukpga/2000/36/contents">Freedom of Information Act</a></li>
+		  		</ul>
+		    </li>
+
+		    <li><a href="careers.html">Careers</a></li>
+
+		  	<li><a href="useful_links.html">Useful Links</a></li>	
+		</ul>
+	</nav>
+</div>
+<!--Introduction, role of the profesional body, Data protection (and freedom of information), intellectual property downloading and piracy,
+	Internet and information, Cybercrime-->
+
+<div id="containerleft" >
+	<div id = "componentleft" style="border-color: #FF0000">
+		<h3><a href = "lesson1.html">Lesson 1 - Intro</a></h3>
+		<p>An introduction to computer laws and ethics.</p>
+	</div>
+
+	<div id = "componentleft" style="border-color: #FF8000">
+		<h3><a href = "lesson2.html">Lesson 2 - Learn the code!</a></h3>
+		<p>Do you know enough about the BCS Code of conduct?</p>
+	</div>
+
+	<div id = "componentleft" style="border-color: #FFFF00" >
+		<h3><a href = "lesson3.html">Lesson 3 - My Password is "password" </a></h3>
+		<p>Discover the data protection act and how it affects your every day life. </p>
+	</div>
+
+	<div id = "componentleft" style="border-color: #FF0080" >
+		<h3><a href = "lesson4.html">Lesson 4 - Freedom of Information</a></h3>
+		<p>What information is held about you and what can you do about it?</p>
+	</div>
+
+	<div id = "componentleft" style="border-color: #FF00FF">
+		<h3><a href = "lesson5.html">Lesson 5 - You Wouldn't Steal A Car</a></h3>
+		<p>What is piracy.. and is it wrong?</p>
+	</div>
+
+	<div id = "componentleft" style="border-color: #9E00E5">
+		<h3><a href = "lesson6.html">Lesson 6 - How law affects Computer Scientists</a></h3>
+		<p>So just <i>how</i> do these laws affect you?</p>
+	</div>
+	<div id = "componentleft" style="border-color: #0047E5">
+		<h3><a href = "lesson7.html">Lesson 7 - Cybercrime!</a></h3>
+		<p>The menace of the modern age. Learn here about cyber crimes and how they are tackled.</p>
+	</div>
+</div>
+
+<div id ="containerright">
+	<h1 style="text-align:center">Lesson 6 Quiz</h1>
+
+	<!--This is where the quiz elements are stored-->
+			<form name = "quiz" action="" method="post">
+				<!--Question 1-->
+				<h2 class = "font-effect-outline" id="subHeading">Question 1</h2>
+				<p>What style of programming is encouraged by the Data Protection Act?
+</p>
+				<input type="radio" name="question_1" value="0">Data-Driven Programming<br>
+				<input type="radio" name="question_1" value="0">Aggressive Programming<br>
+				<input type="radio" name="question_1" value="1">Defensive Programming  <br>
+				<input type="radio" name="question_1" value="0">Let someone else do it Programming<br>
+				<span style=color:red id="question_1"></span>
+				<span style=color:green id="question_1_correct"></span>
+				<span style=color:red id="question_1_incorrect"></span>
+
+				<p id ="question_1_answer"></p>
+				<p id ="question_1_descrip"></p>
+
+				<!--Question 2-->
+				<h2 class = "font-effect-outline" id="subHeading">Question 2</h2>
+				<p>What are the benefits to a programmer of the Copyright, Designs and Patents Act?</p>
+				<input type="radio" name="question_2" value="0">It encourages simple programs<br>
+				<input type="radio" name="question_2" value="0">It makes the programmer aware of where their material has come from<br>
+				<input type="radio" name="question_2" value="0">It gives a programmer the freedom to put anything they find in their program<br>
+				<input type="radio" name="question_2" value="1">It protects the programmer from having their Intellectual Property stolen<br>
+				<span style=color:red id="question_2"></span>
+				<span style=color:green id="question_2_correct"></span>
+				<span style=color:red id="question_2_incorrect"></span>
+				<p id ="question_2_answer"></p>
+				<p id ="question_2_descrip"></p>
+				
+				<!--Question 3-->
+				<h2 class = "font-effect-outline" id="subHeading">Question 3</h2>
+				<p>You have just created your newest program when you receive an email from an unknown person saying that you have used one of their images without asking for their permission. You apologise immediately and then ask if it is ok if you still use their image in your program. They refuse to let you use their image without first giving them a fee for the use of it. What do you do?</p>
+				<input type="radio" name="question_3" value="0">Continue to use the image as what can they going to do if you do?<br>
+				<input type="radio" name="question_3" value="1">Pay the fee requested for the image and keep it in your program<br>
+				<input type="radio" name="question_3" value="0">Replace the image with another copyrighted image<br>
+				<input type="radio" name="question_3" value="1">Remove the image and replace it with an image of your own, or a copyright free one <br>
+				<span style=color:red id="question_3"></span>
+				<span style=color:green id="question_3_correct"></span>
+				<span style=color:red id="question_3_incorrect"></span>
+				<p id ="question_3_answer"></p>
+				<p id ="question_3_descrip"></p>
+				
+				<!--Question 4-->
+				<h2 class = "font-effect-outline" id="subHeading">Question 4</h2>
+				<p>When thinking about the Freedom of Information Act, why are ease of use and program efficiency important aspects to consider?</p>
+				<input type="radio" name="question_4" value="1">This will allow any data requests to be handled quickly and with a minimum expense<br>
+				<input type="radio" name="question_4" value="0">To ensure any person requesting data can find it easily on their own<br>
+				<input type="radio" name="question_4" value="0">To make sure information is easy to hide or remove<br>
+				<input type="radio" name="question_4" value="0">If the program is not efficient the data cannot be accessed<br>
+				<span style=color:red id="question_4"></span>
+				<span style=color:green id="question_4_correct"></span>
+				<span style=color:red id="question_4_incorrect"></span>
+
+
+				<p id ="question_4_answer"></p>
+				<p id ="question_4_descrip"></p>
+				
+				<!--Question 5-->
+				<h2 class = "font-effect-outline" id="subHeading">Question 5</h2>
+				<p>Which of the following acts has the biggest influence on computer scientists?</p>
+				<input type="radio" name="question_5" value="0">Freedom of Information Act<br>
+				<input type="radio" name="question_5" value="0">Copyright, Designs or Patents Act<br>
+				<input type="radio" name="question_5" value="1">Data Protection Act<br>
+				<input type="radio" name="question_5" value="0">Health and Safety Act<br>
+				<span style=color:red id="question_5"></span>
+				<span style=color:green id="question_5_correct"></span>
+				<span style=color:red id="question_5_incorrect"></span>
+
+
+				<p id ="question_5_answer"></p>
+				<p id ="question_5_descrip"></p>
+
+				<!--Submit Button-->
+				<br></br>
+				<button type = "button" onclick="scoreCalculate()">Calculate Score</button>
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+				<script>
+				function scoreCalculate() {
+					var score = 0;
+					var all_answered = true;
+					var value;
+					$("input:radio").each(function(){
+						var name = $(this).attr("name");
+						if($("input:radio[name="+name+"]:checked").length == 0)
+						{
+							all_answered = false;
+                                                        $("#"+name+"").text('You must answer this question.')
+						} else {
+							$("#"+name+"").text('')
+						}
+					});
+
+					score = score + parseInt($('input[name=question_1]:checked').val()) + parseInt($('input[name=question_2]:checked').val()) + parseInt($('input[name=question_3]:checked').val()) + parseInt($('input[name=question_4]:checked').val()) + parseInt($('input[name=question_5]:checked').val())
+
+					if(all_answered == true){
+					scoreMessage("You scored ", score, " out of 5");
+					showAnswers();
+					window.scrollTo(0, 0);
+                                        }
+				}
+					
+					
+				scoreMessage = function(title, message, rest){
+    				var myElementToShow = document.getElementById("score");
+    				myElementToShow.innerHTML = title + message + rest; 	
+				}
+
+				showAnswers = function(){
+					if($('input[name=question_1]:checked').val()=='1'){
+						$("#question_1_answer").html("Question 1: You're right!");
+						document.getElementById("question_1_answer").style.color = "green";
+					}else{
+						$("#question_1_answer").html("Question 1: Nope, that's not correct.");
+						document.getElementById("question_1_answer").style.color = "red";
+					}
+					$("#question_1_descrip").html("Defensive Programming is encouraged by the Data Protection Act"
+					+ " as anticipating potential errors and vulnerabilities in code before they are exposed limits the"
+					+ " chances of data being stolen. A programmer who anticipates problems before they occur is very likely"
+					+ " to have a more secure and robust one than a programmer who just writes code until the program works!");
+
+					if($('input[name=question_2]:checked').val()=='1'){
+						$("#question_2_answer").html("Question 2: You're right!");
+						document.getElementById("question_2_answer").style.color = "green";
+					}else{
+						$("#question_2_answer").html("Question 2: Nope, that's not correct.");
+						document.getElementById("question_2_answer").style.color = "red";
+					}
+					$("#question_2_descrip").html("The Copyright, Designs and Patents Act affords a computer scientist an"
+					+ " extra level of protection over the material that they produce (such as images, videos and code). If"
+					+ " anyone else is found to be using their material without permission they can sue that person under the"
+					+ " Act, or just demand that they remove the material in question.");
+
+
+					if($('input[name=question_3]:checked').val()=='1'){
+						$("#question_3_answer").html("Question 3: You're right!");
+						document.getElementById("question_3_answer").style.color = "green";
+					}else{
+						$("#question_3_answer").html("Question 3: Nope, that's not correct.");
+						document.getElementById("question_3_answer").style.color = "red";
+					}
+					$("#question_3_descrip").html("In this situation either paying the fee, or replacing it with your own or a copyright free image is the way to go. As the image is Copyrighted to them you have to have their permission to use the image, or risk being sued later in court. A fee is sometimes necessary to gain the copyright holders permission and if the fee is deemed fair must be paid for the copyrighted material to be allowed to still be used. Always consider how much time and effort has went into the work you’re copying!");
+
+					
+					if($('input[name=question_4]:checked').val()=='1'){
+						$("#question_4_answer").html("Question 4: You're right!");
+						document.getElementById("question_4_answer").style.color = "green";
+					}else{
+						$("#question_4_answer").html("Question 4: Nope, that's not correct.");
+						document.getElementById("question_4_answer").style.color = "red";
+					}
+					$("#question_4_descrip").html("Ease of use and program efficiency are important aspects to consider as data requests must be handled within 20 days of the request being received. An easy to use and efficient system will speed up the time it takes to complete these requests and will ensure that no matter how many requests are received, the company should be able to respond to them all. Data should not be hidden or removed, even if the company does not want it to be known to the public!");
+
+					
+					if($('input[name=question_5]:checked').val()=='1'){
+						$("#question_5_answer").html("Question 5: You're right!");
+						document.getElementById("question_5_answer").style.color = "green";
+					}else{
+						$("#question_5_answer").html("Question 5: Nope, that's not correct.");
+						document.getElementById("question_5_answer").style.color = "red";
+					}
+					$("#question_5_descrip").html("As important as it is to be safe at work and not fall or impale oneself on any sharp objects, this is considered to be common sense! The Data Protection Act is the Act which has the biggest influence on a computer scientist and is the law which needs to be most carefully considered, especially in this age of rampant cyber attacks.");
+	
+				}
+				
+				</script>
+				
+			</form>
+
+			
+			<div id ="score">
+	
+			</div>
+</div>
+
+<div class="clear"></div>
+
+<div id="footer">
+<p>A group - CS211 Professional Issues </p>
+<p>&copy Kieran McDermott, Desmond Henaghen, Triantafyllos Bouzos, Irina Camilleri, Aleksandras Džikia.</p>
+<button id="topbutton">Go to top of page</button><BR>
+</div>
+<script>
+        $("#topbutton").click(function() {
+    		$('html, body').animate({
+        		scrollTop: $("#header").offset().top
+    		}, 900);
+	});
+    </script>
+</body>
+
+</html>

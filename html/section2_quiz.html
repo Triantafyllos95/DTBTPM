@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Computer Science and The Laws You Need To Know</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
+  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+
+<body>
+<div id ="header">
+	<div id = "logo">
+		<a href ="index.html"><img src="logo.png" id = "logoimg"></a>
+	</div>
+	<div id = "headertext">
+		<p>
+			Fun and interactive lessons to help you learn about the laws in computer science!
+		</p>
+	</div>
+	<nav>
+		<ul>
+		    <li><a href="">Computer Laws</a>
+		    	<ul>
+		  			<li><a href="http://www.legislation.gov.uk/ukpga/1998/29/contents">Data Protection Act</a></li>
+		  			<li><a href="http://www.legislation.gov.uk/ukpga/1988/48/contents">Copyright Designs and Patents Act</a></li>
+		  			<li><a href="http://www.legislation.gov.uk/ukpga/2000/36/contents">Freedom of Information Act</a></li>
+		  		</ul>
+		    </li>
+
+		    <li><a href="careers.html">Careers</a></li>
+
+		  	<li><a href="useful_links.html">Useful Links</a></li>	
+		</ul>
+	</nav>
+</div>
+<!--Introduction, role of the profesional body, Data protection (and freedom of information), intellectual property downloading and piracy,
+	Internet and information, Cybercrime-->
+
+<div id="containerleft" >
+	<div id = "componentleft" style="border-color: #FF0000">
+		<h3><a href = "lesson1.html">Lesson 1 - Intro</a></h3>
+		<p>An introduction to computer laws and ethics.</p>
+	</div>
+
+	<div id = "componentleft" style="border-color: #FF8000">
+		<h3><a href = "lesson2.html">Lesson 2 - Learn the code!</a></h3>
+		<p>Do you know enough about the BCS Code of conduct?</p>
+	</div>
+
+	<div id = "componentleft" style="border-color: #FFFF00" >
+		<h3><a href = "lesson3.html">Lesson 3 - My Password is "password" </a></h3>
+		<p>Discover the data protection act and how it affects your every day life. </p>
+	</div>
+
+	<div id = "componentleft" style="border-color: #FF0080" >
+		<h3><a href = "lesson4.html">Lesson 4 - Freedom of Information</a></h3>
+		<p>What information is held about you and what can you do about it?</p>
+	</div>
+
+	<div id = "componentleft" style="border-color: #FF00FF">
+		<h3><a href = "lesson5.html">Lesson 5 - You Wouldn't Steal A Car</a></h3>
+		<p>What is piracy.. and is it wrong?</p>
+	</div>
+
+	<div id = "componentleft" style="border-color: #9E00E5">
+		<h3><a href = "lesson6.html">Lesson 6 - How law affects Computer Scientists</a></h3>
+		<p>So just <i>how</i> do these laws affect you?</p>
+	</div>
+	<div id = "componentleft" style="border-color: #0047E5">
+		<h3><a href = "lesson7.html">Lesson 7 - Cybercrime!</a></h3>
+		<p>The menace of the modern age. Learn here about cyber crimes and how they are tackled.</p>
+	</div>
+</div>
+
+<div id ="containerright">
+	<h1 style="text-align:center">Lesson 3 Quiz</h1>
+
+	<!--This is where the quiz elements are stored-->
+			<form name = "quiz" action="" method="post">
+				<!--Question 1-->
+				<h2 class = "font-effect-outline" id="subHeading">Question 1</h2>
+				<p>Which of these is classed as personal data?</p>
+				<input type="radio" name="question_1" value="0">Race<br>
+				<input type="radio" name="question_1" value="1">Billing address on an online order.<br>
+				<input type="radio" name="question_1" value="0">Political views.<br>
+				<input type="radio" name="question_1" value="0">Sexual orientation.<br>
+				<span style=color:red id="question_1"></span>
+				<span style=color:green id="question_1_correct"></span>
+				<span style=color:red id="question_1_incorrect"></span>
+
+				<p id ="question_1_answer"></p>
+				<p id ="question_1_descrip"></p>
+
+				<!--Question 2-->
+				<h2 class = "font-effect-outline" id="subHeading">Question 2</h2>
+				<p>Which of these is classed as sensitive data?</p>
+				<input type="radio" name="question_2" value="0">Bank details.<br>
+				<input type="radio" name="question_2" value="0">Medical details.<br>
+				<input type="radio" name="question_2" value="0">Name.<br>
+				<input type="radio" name="question_2" value="1">Trade union membership.<br>
+				<span style=color:red id="question_2"></span>
+				<span style=color:green id="question_2_correct"></span>
+				<span style=color:red id="question_2_incorrect"></span>
+				<p id ="question_2_answer"></p>
+				<p id ="question_2_descrip"></p>
+				
+				<!--Question 3-->
+				<h2 class = "font-effect-outline" id="subHeading">Question 3</h2>
+				<p>An online dating company store the details of the name, age, gender and sexual orientation of a member. By storing such data, are they breaching the Data Protection Act? If so, which pieces of data do?</p>
+				<input type="radio" name="question_3" value="0">Sexual Orientation<br>
+				<input type="radio" name="question_3" value="0">Gender<br>
+				<input type="radio" name="question_3" value="0">Age<br>
+				<input type="radio" name="question_3" value="1">None of the data breaches the act.<br>
+				<span style=color:red id="question_3"></span>
+				<span style=color:green id="question_3_correct"></span>
+				<span style=color:red id="question_3_incorrect"></span>
+				<p id ="question_3_answer"></p>
+				<p id ="question_3_descrip"></p>
+				
+				<!--Question 4-->
+				<h2 class = "font-effect-outline" id="subHeading">Question 4</h2>
+				<p>A large games company makes billions of pounds each year through online subscriptions for online gameplay. They store millions of account details on their servers which contain the bank account details of their customers. Their server security systems are out of date but do not want to bear the cost of the upgrade, using your own code of ethics and basing your answer on the data protection act, which is the best option?</p>
+				<input type="radio" name="question_4" value="0">Don't buy the upgrade, the older systems are fine and the money is needed elsewhere.<br>
+				<input type="radio" name="question_4" value="1">Upgrade the systems, you can't take the chance of all that data being stolen!<br>
+				<input type="radio" name="question_4" value="0">What's the Data Protection Act?<br>
+				<input type="radio" name="question_4" value="0">It's pointless to upgrade just because the system is out of date, the security companies just want more money from us.<br>
+				<span style=color:red id="question_4"></span>
+				<span style=color:green id="question_4_correct"></span>
+				<span style=color:red id="question_4_incorrect"></span>
+
+
+				<p id ="question_4_answer"></p>
+				<p id ="question_4_descrip"></p>
+				
+				<!--Question 5-->
+				<h2 class = "font-effect-outline" id="subHeading">Question 5</h2>
+				<p>Which of these are not a valid part of the Data Protection Act? Data must be:</p>
+				<input type="radio" name="question_5" value="0">Not kept for longer than necessary.<br>
+				<input type="radio" name="question_5" value="0">Accurate.<br>
+				<input type="radio" name="question_5" value="1">Made available in any country.<br>
+				<input type="radio" name="question_5" value="0">Secure.<br>
+				<span style=color:red id="question_5"></span>
+				<span style=color:green id="question_5_correct"></span>
+				<span style=color:red id="question_5_incorrect"></span>
+
+
+				<p id ="question_5_answer"></p>
+				<p id ="question_5_descrip"></p>
+
+				<!--Submit Button-->
+				<br></br>
+				<button type = "button" onclick="scoreCalculate()">Calculate Score</button>
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+				<script>
+				function scoreCalculate() {
+					var score = 0;
+					var all_answered = true;
+					var value;
+					$("input:radio").each(function(){
+						var name = $(this).attr("name");
+						if($("input:radio[name="+name+"]:checked").length == 0)
+						{
+							all_answered = false;
+                                                        $("#"+name+"").text('You must answer this question.')
+						} else {
+							$("#"+name+"").text('')
+						}
+					});
+
+					score = score + parseInt($('input[name=question_1]:checked').val()) + parseInt($('input[name=question_2]:checked').val()) + parseInt($('input[name=question_3]:checked').val()) + parseInt($('input[name=question_4]:checked').val()) + parseInt($('input[name=question_5]:checked').val())
+
+					if(all_answered == true){
+					scoreMessage("You scored ", score, " out of 5");
+					showAnswers();
+					window.scrollTo(0, 0);
+                                        }
+				}
+					
+					
+				scoreMessage = function(title, message, rest){
+    				var myElementToShow = document.getElementById("score");
+    				myElementToShow.innerHTML = title + message + rest; 	
+				}
+
+				showAnswers = function(){
+					if($('input[name=question_1]:checked').val()=='1'){
+						$("#question_1_answer").html("Question 1: You're right!");
+						document.getElementById("question_1_answer").style.color = "green";
+					}else{
+						$("#question_1_answer").html("Question 1: Nope, that's not correct.");
+						document.getElementById("question_1_answer").style.color = "red";
+					}
+					$("#question_1_descrip").html("Only the address was personal data here. The rest were sensitive data!");
+
+					if($('input[name=question_2]:checked').val()=='1'){
+						$("#question_2_answer").html("Question 2: You're right!");
+						document.getElementById("question_2_answer").style.color = "green";
+					}else{
+						$("#question_2_answer").html("Question 2: Nope, that's not correct.");
+						document.getElementById("question_2_answer").style.color = "red";
+					}
+					$("#question_2_descrip").html("Trade union memberships are actually classed as sensitive data.");
+
+
+					if($('input[name=question_3]:checked').val()=='1'){
+						$("#question_3_answer").html("Question 3: You're right!");
+						document.getElementById("question_3_answer").style.color = "green";
+					}else{
+						$("#question_3_answer").html("Question 3: Nope, that's not correct.");
+						document.getElementById("question_3_answer").style.color = "red";
+					}
+					$("#question_3_descrip").html("No breaches here, all of the data is relevant to an online dating website.");
+
+					
+					if($('input[name=question_4]:checked').val()=='1'){
+						$("#question_4_answer").html("Question 4: You're right!");
+						document.getElementById("question_4_answer").style.color = "green";
+					}else{
+						$("#question_4_answer").html("Question 4: Nope, that's not correct.");
+						document.getElementById("question_4_answer").style.color = "red";
+					}
+					$("#question_4_descrip").html("Definitely always upgrade. You can never be too careful. Looking at you sony!");
+
+					
+					if($('input[name=question_5]:checked').val()=='1'){
+						$("#question_5_answer").html("Question 5: You're right!");
+						document.getElementById("question_5_answer").style.color = "green";
+					}else{
+						$("#question_5_answer").html("Question 5: Nope, that's not correct.");
+						document.getElementById("question_5_answer").style.color = "red";
+					}
+					$("#question_5_descrip").html("It was 'made available in any country' that was the odd one out, data should never be transferred to a country that does not have substantual data protection laws in place.");
+	
+				}
+				
+				</script>
+				
+			</form>
+
+			
+			<div id ="score">
+	
+			</div>
+</div>
+
+<div class="clear"></div>
+
+<div id="footer">
+<p>A group - CS211 Professional Issues </p>
+<p>&copy Kieran McDermott, Desmond Henaghen, Triantafyllos Bouzos, Irina Camilleri, Aleksandras Džikia.</p>
+<button id="topbutton">Go to top of page</button><BR>
+</div>
+<script>
+        $("#topbutton").click(function() {
+    		$('html, body').animate({
+        		scrollTop: $("#header").offset().top
+    		}, 900);
+	});
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,275 @@
+nav {}
+
+body
+{
+	background-color: white;
+	/*font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;*/
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	margin:0em;
+}
+
+/*DROP DOWN MENUS*/
+
+nav ul
+{
+	text-align: right;
+  	margin: 0;
+  	padding: 0;
+}
+nav ul li 
+{
+	display: inline-block;
+	position: relative;
+	margin: 0em .5em 0em;
+	padding: 0em .5em;
+}
+
+nav ul li ul {
+	background-color: white;
+	position: absolute;
+	visibility: hidden;
+	border-radius: 0.4em;
+	opacity: 0;
+	padding: .2em .4em;
+	width:85%;
+	border:0;
+	border-left: .5em;
+	border-style: ridge;
+	border-right: .5em;
+	border-color: #55AF67;
+}
+
+nav ul li ul li{
+	color:black;
+	text-align: left;
+	display: block;
+	z-index: 1;
+	margin: .3em 0em 0em 0em;
+	font-size: .9em;
+	padding: 0;
+}
+
+nav ul li:hover ul{
+	visibility: visible;
+	opacity: 1;
+	transition: opacity 0.5s;
+}
+
+nav ul li ul a
+{
+	color:black;
+}
+
+nav ul li ul a:hover
+{
+	color:grey;
+}
+
+/*LINKS*/
+
+nav a 
+{
+	color:black;
+	text-decoration: none;
+	font-size: 1em;
+}
+
+nav a:hover
+{
+	color: #00831F; 
+	transition: color 0.5s;
+}
+
+#componentleft a
+{
+	text-decoration: none;
+	color:black;
+	font-weight:300;
+}
+
+#componentleft:hover a
+{
+	color: grey;
+	transition: color 0.5s;
+}
+
+ul li a
+{
+	color:black;
+	text-decoration: none;
+}
+
+ul li a:hover
+{
+	color:grey;
+	text-decoration: none;
+}
+
+/*a 
+{
+	color:black;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: grey;
+	transition: color 0.5s;
+}*/
+
+/*HEADER STUFF*/
+
+#header
+{
+	background-image: url("headertex.png");
+	padding-bottom: 0.5em;
+	padding-left: 1em;
+	margin-bottom: 1em;
+}
+
+#headertext
+{
+	border 0;
+	border-left: .2em dotted #00831F;
+	display: inline-block;
+	font-size: 1.2em;
+	width: 30%;
+	padding-left: 1em;
+	font-weight: 300;
+}
+
+#logo
+{
+	text-align: left;
+	float:left;
+	padding-right: 1em;
+	padding-top: .2em;
+}
+
+#logoimg
+{
+	width: 20em;
+	max-height:100%; 
+	max-width:100%;
+}
+
+/*LEFT NAVIGATION*/
+
+#containerleft
+{
+	background-color: rgba(255,255,255,.1);
+	font-size: .9em;
+	font-weight: 300;
+	text-align: left;
+	padding-left: 1%;
+	width:26%;
+	margin: 0;
+	padding-top: 0;
+	margin-bottom:.5%;
+	float:left;
+	position:relative;
+}
+
+#componentleft
+{
+	border:0;
+	border-left: .5em;
+	border-style: solid;
+	margin: 0em .3em;
+	width:90%;
+	display: block;
+	text-align: left;
+	padding-left: 1em;
+	position: relative;
+}
+
+/*RIGHT CONTENT BOX*/
+
+#containerright
+{
+	background-color: rgba(255,255,255,.1);
+	font-size: 1.1em;
+	border: 1px;
+	border-style: solid;
+	border-color: #B9B9B9;
+	text-align: left;
+	padding-left: 1em;
+	padding-right: 1em;
+	height:30%;
+	width:70%;
+	display: inline-block;
+	margin-bottom: .5%;
+	min-height:
+}
+
+#pageheading
+{
+	text-align: center;
+	font-size: 1.5em;
+}
+
+#contentimageleft
+{
+	margin-right: 1.5em;
+	margin-bottom: .3em;
+}
+
+#contentimageright
+{
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+	margin-bottom: 1em;
+}
+
+#fact
+{
+	text-align:center;
+	border-style:solid;
+	border-width:1px;
+	border-color: grey;
+}
+
+p a
+{
+	text-decoration: underline;
+	color: #0066FF;
+}
+
+#containerleft #componentleft p a
+{
+	text-decoration: underline;
+	color:#0066FF;
+}
+
+/*QUIZ STUFF*/
+
+#score
+{
+	margin-top: 1em;
+	color:green;
+	font-size: 1.5em;
+}
+
+/*FOOTER*/
+
+#footer
+{
+	font-size:.7em;
+	clear:both;
+	text-align:center;
+	position:relative;
+	margin-bottom:.5em;
+	background-color: rgba(0,0,0,.1);
+	margin-top: 0;
+	border: 1px;
+	border-style: solid;
+	border-color: #B9B9B9;
+	padding: 0;
+}
+
+.clear
+{
+	clear: both;
+	height 1px;
+}

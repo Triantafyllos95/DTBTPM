@@ -1,0 +1,1 @@
+This is the group assignment for CS211. The members of this group are Kieran McDermott, Desmond Henaghen, Triantafyllos Bouzos, Irina Camilleri, Aleksandras Džikia

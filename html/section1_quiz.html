@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Computer Science and The Laws You Need To Know</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
+  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+
+<body>
+<div id ="header">
+	<div id = "logo">
+		<a href ="index.html"><img src="logo.png" id = "logoimg"></a>
+	</div>
+	<div id = "headertext">
+		<p>
+			Fun and interactive lessons to help you learn about the laws in computer science!
+		</p>
+	</div>
+	<nav>
+		<ul>
+		    <li><a href="">Computer Laws</a>
+		    	<ul>
+		  			<li><a href="http://www.legislation.gov.uk/ukpga/1998/29/contents">Data Protection Act</a></li>
+		  			<li><a href="http://www.legislation.gov.uk/ukpga/1988/48/contents">Copyright Designs and Patents Act</a></li>
+		  			<li><a href="http://www.legislation.gov.uk/ukpga/2000/36/contents">Freedom of Information Act</a></li>
+		  		</ul>
+		    </li>
+
+		    <li><a href="careers.html">Careers</a></li>
+
+		  	<li><a href="useful_links.html">Useful Links</a></li>	
+		</ul>
+	</nav>
+</div>
+<!--Introduction, role of the profesional body, Data protection (and freedom of information), intellectual property downloading and piracy,
+	Internet and information, Cybercrime-->
+
+<div id="containerleft" >
+	<div id = "componentleft" style="border-color: #FF0000">
+		<h3><a href = "lesson1.html">Lesson 1 - Intro</a></h3>
+		<p>An introduction to computer laws and ethics.</p>
+	</div>
+
+	<div id = "componentleft" style="border-color: #FF8000">
+		<h3><a href = "lesson2.html">Lesson 2 - Learn the code!</a></h3>
+		<p>Do you know enough about the BCS Code of conduct?</p>
+	</div>
+
+	<div id = "componentleft" style="border-color: #FFFF00" >
+		<h3><a href = "lesson3.html">Lesson 3 - My Password is "password" </a></h3>
+		<p>Discover the data protection act and how it affects your every day life. </p>
+	</div>
+
+	<div id = "componentleft" style="border-color: #FF0080" >
+		<h3><a href = "lesson4.html">Lesson 4 - Freedom of Information</a></h3>
+		<p>What information is held about you and what can you do about it?</p>
+	</div>
+
+	<div id = "componentleft" style="border-color: #FF00FF">
+		<h3><a href = "lesson5.html">Lesson 5 - You Wouldn't Steal A Car</a></h3>
+		<p>What is piracy.. and is it wrong?</p>
+	</div>
+
+	<div id = "componentleft" style="border-color: #9E00E5">
+		<h3><a href = "lesson6.html">Lesson 6 - How law affects Computer Scientists</a></h3>
+		<p>So just <i>how</i> do these laws affect you?</p>
+	</div>
+	<div id = "componentleft" style="border-color: #0047E5">
+		<h3><a href = "lesson7.html">Lesson 7 - Cybercrime!</a></h3>
+		<p>The menace of the modern age. Learn here about cyber crimes and how they are tackled.</p>
+	</div>
+</div>
+
+<div id ="containerright">
+	<h1 style="text-align:center">Lesson 2 Quiz</h1>
+
+	<!--This is where the quiz elements are stored-->
+			<form name = "quiz" action="" method="post">
+				<!--Question 1-->
+				<h2 class = "font-effect-outline" id="subHeading">Question 1</h2>
+				<p>What best describes ethics?</p>
+				<input type="radio" name="question_1" value="1">Principles governed by the conscience of the individual <br>
+				<input type="radio" name="question_1" value="0">Society expectations of our behaviour <br>
+				<input type="radio" name="question_1" value="0">The regulations at one’s workplace <br>
+				<input type="radio" name="question_1" value="0">The rules in Acts of Parliament <br>
+				<span style=color:red id="question_1"></span>
+				<span style=color:green id="question_1_correct"></span>
+				<span style=color:red id="question_1_incorrect"></span>
+
+				<p id ="question_1_answer"></p>
+				<p id ="question_1_descrip"></p>
+
+				<!--Question 2-->
+				<h2 class = "font-effect-outline" id="subHeading">Question 2</h2>
+				<p>Which of these is not a function of a professional body? </p>
+				<input type="radio" name="question_2" value="0">Disseminating knowledge via conferences and publications <br>
+				<input type="radio" name="question_2" value="0">Advising government about relevant matters <br>
+				<input type="radio" name="question_2" value="0">Setting standards of education and experience for prospective members<br>
+				<input type="radio" name="question_2" value="1">Helping their members find jobs<br>
+				<span style=color:red id="question_2"></span>
+				<span style=color:green id="question_2_correct"></span>
+				<span style=color:red id="question_2_incorrect"></span>
+				<p id ="question_2_answer"></p>
+				<p id ="question_2_descrip"></p>
+				
+				<!--Question 3-->
+				<h2 class = "font-effect-outline" id="subHeading">Question 3</h2>
+				<p>Which professional body will you be part of once you graduate from your course in UK as a computer scientist? </p>
+				<input type="radio" name="question_3" value="1">BCS<br>
+				<input type="radio" name="question_3" value="0">ACS<br>
+				<input type="radio" name="question_3" value="0">ACM<br>
+				<input type="radio" name="question_3" value="0">ABC<br>
+				<span style=color:red id="question_3"></span>
+				<span style=color:green id="question_3_correct"></span>
+				<span style=color:red id="question_3_incorrect"></span>
+				<p id ="question_3_answer"></p>
+				<p id ="question_3_descrip"></p>
+				
+				<!--Question 4-->
+				<h2 class = "font-effect-outline" id="subHeading">Question 4</h2>
+				<p>Which of the following is not covered by the code of conduct?</p>
+				<input type="radio" name="question_4" value="0">The requirement to uphold the reputation and good standing of your profession<br>
+				<input type="radio" name="question_4" value="0">To only undertake to do work or provide a service that is within your professional competence<br>
+				<input type="radio" name="question_4" value="1">To keep data held about other people secure<br>
+				<input type="radio" name="question_4" value="0">Reject and will not make any offer of bribery or unethical inducement<br>
+				<span style=color:red id="question_4"></span>
+				<span style=color:green id="question_4_correct"></span>
+				<span style=color:red id="question_4_incorrect"></span>
+
+
+				<p id ="question_4_answer"></p>
+				<p id ="question_4_descrip"></p>
+				
+				<!--Question 5-->
+				<h2 class = "font-effect-outline" id="subHeading">Question 5</h2>
+				<p>You have a detailed idea on what to do for your programming project at school and you tell your best friend the ins and outs of it. Weeks pass and you think nothing of it, but when the marks are given out, you and your friend both recieve a deducted grade because the teacher saw that the work had been plagiarised. Can you think of the computer law that would be violated if plagiarism occurred between two businesses?</p>
+				<input type="radio" name="question_5" value="0">Know the laws related to public safety<br>
+				<input type="radio" name="question_5" value="1">Have due regard for public health, privacy, security and wellbeing of others and the environment<br>
+				<input type="radio" name="question_5" value="0">Encourage and support fellow members in their professional development<br>
+				<input type="radio" name="question_5" value="0">Make decisions based on what benefits you<br>
+				<span style=color:red id="question_5"></span>
+				<span style=color:green id="question_5_correct"></span>
+				<span style=color:red id="question_5_incorrect"></span>
+
+
+				<p id ="question_5_answer"></p>
+				<p id ="question_5_descrip"></p>
+
+				<!--Submit Button-->
+				<br></br>
+				<button type = "button" onclick="scoreCalculate()">Calculate Score</button>
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+				<script>
+				function scoreCalculate() {
+					var score = 0;
+					var all_answered = true;
+					var value;
+					$("input:radio").each(function(){
+						var name = $(this).attr("name");
+						if($("input:radio[name="+name+"]:checked").length == 0)
+						{
+							all_answered = false;
+                                                        $("#"+name+"").text('You must answer this question.')
+						} else {
+							$("#"+name+"").text('')
+						}
+					});
+
+					score = score + parseInt($('input[name=question_1]:checked').val()) + parseInt($('input[name=question_2]:checked').val()) + parseInt($('input[name=question_3]:checked').val()) + parseInt($('input[name=question_4]:checked').val()) + parseInt($('input[name=question_5]:checked').val())
+
+					if(all_answered == true){
+					scoreMessage("You scored ", score, " out of 5");
+					showAnswers();
+					window.scrollTo(0, 0);
+                                        }
+				}
+					
+					
+				scoreMessage = function(title, message, rest){
+    				var myElementToShow = document.getElementById("score");
+    				myElementToShow.innerHTML = title + message + rest; 	
+				}
+
+				showAnswers = function(){
+					if($('input[name=question_1]:checked').val()=='1'){
+						$("#question_1_answer").html("Question 1: You're right!");
+						document.getElementById("question_1_answer").style.color = "green";
+					}else{
+						$("#question_1_answer").html("Question 1: Nope, that's not correct.");
+						document.getElementById("question_1_answer").style.color = "red";
+					}
+					$("#question_1_descrip").html("Acts of Parliament are made up of laws and policies that are enforced by government authority. Ethics fill the ‘vacuum of policies’. They can be described as moral principles that govern a person's behaviour or the conducting of an activity. Ethical decisions are enforced by what ‘we feel is right’ i.e. our conscience and not society or regulations at work. ");
+
+					if($('input[name=question_2]:checked').val()=='1'){
+						$("#question_2_answer").html("Question 2: You're right!");
+						document.getElementById("question_2_answer").style.color = "green";
+					}else{
+						$("#question_2_answer").html("Question 2: Nope, that's not correct.");
+						document.getElementById("question_2_answer").style.color = "red";
+					}
+					$("#question_2_descrip").html("Professional bodies exist to uphold the reputation and further the profession in general. While membership can help individuals further their careers, this would be mostly through networking during conferences and professional events. It is not a goal of the professional body as an organisation. ");
+
+
+					if($('input[name=question_3]:checked').val()=='1'){
+						$("#question_3_answer").html("Question 3: You're right!");
+						document.getElementById("question_3_answer").style.color = "green";
+					}else{
+						$("#question_3_answer").html("Question 3: Nope, that's not correct.");
+						document.getElementById("question_3_answer").style.color = "red";
+					}
+					$("#question_3_descrip").html("For computer scientists and software engineers, the professional body in question is the  British Computer Society  (known as BCS, the Chartered Institute for IT).  The others stand for Australian Computer Society and Association for Computing Machinery respectively, while ABC was never mentioned as an existing professional body and is simply made up. ");
+
+					
+					if($('input[name=question_4]:checked').val()=='1'){
+						$("#question_4_answer").html("Question 4: You're right!");
+						document.getElementById("question_4_answer").style.color = "green";
+					}else{
+						$("#question_4_answer").html("Question 4: Nope, that's not correct.");
+						document.getElementById("question_4_answer").style.color = "red";
+					}
+					$("#question_4_descrip").html("Acting in the public interest involves having due regard for public health, privacy, security and wellbeing of others. Knowing the relevant laws is and encouraging professional development relate to other sections of the code of conduct, which acting of out of selfish interest is simply unethical. ");
+
+					
+					if($('input[name=question_5]:checked').val()=='1'){
+						$("#question_5_answer").html("Question 5: You're right!");
+						document.getElementById("question_5_answer").style.color = "green";
+					}else{
+						$("#question_5_answer").html("Question 5: Nope, that's not correct.");
+						document.getElementById("question_5_answer").style.color = "red";
+					}
+					$("#question_5_descrip").html("This would come under the Copyright, Designs and Patents Act. It is the theft of intellectual property and if a business uses another businesses ideas without the right they will be charged for breaching this. The situation in school is not illegal, however it is a case of ethics. Maybe the friend should be reading the BCS code of conduct to brush up on his ethics and he might know not to plagiarise.");
+	
+				}
+				
+				</script>
+				
+			</form>
+
+			
+			<div id ="score">
+	
+			</div>
+</div>
+
+<div class="clear"></div>
+
+<div id="footer">
+<p>A group - CS211 Professional Issues </p>
+<p>&copy Kieran McDermott, Desmond Henaghen, Triantafyllos Bouzos, Irina Camilleri, Aleksandras Džikia.</p>
+<button id="topbutton">Go to top of page</button><BR>
+</div>
+<script>
+        $("#topbutton").click(function() {
+    		$('html, body').animate({
+        		scrollTop: $("#header").offset().top
+    		}, 900);
+	});
+    </script>
+</body>
+
+</html>
