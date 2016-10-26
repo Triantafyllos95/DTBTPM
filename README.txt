@@ -1,1 +1,1 @@
-This is the group assignment for CS211. The members of this group are Kieran McDermott, Desmond Henaghen, Triantafyllos Bouzos, Irina Camilleri, Aleksandras Džikia
+This is the group assignment for MS418. The members of this group are Triantafyllos Bouzos, Richard Tang, Molly McKenna, Ross Lamont, Craig Agnew and Sarah Jay. People responsible for creating the website and the IT topic are Triantafyllos Bouzos and Richard Tang.
